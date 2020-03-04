@@ -1,0 +1,22 @@
+{
+  "name": "BE",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bw-pt-essentialism1/BE.git",
+  "author": "Aaroneld <merrifield48@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "server" : "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.10",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
