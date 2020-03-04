@@ -234,6 +234,6 @@ exports.seed = function(knex) {
         value.id = (index + 1);
       });
       
-      return knex('table_name').insert(valueArr);
+      return knex('values').insert(valueArr);
     });
 }
