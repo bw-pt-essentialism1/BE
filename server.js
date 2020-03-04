@@ -4,11 +4,13 @@ const usersRouter = require('./routes/users/users-router');
 const valuesRouter = require('./routes/values/values-router');
 const projectsRouter = require('./routes/projects/projects-router');
 
+const cors = require('cors');
+
 const authWare = require('./middleware/authenticate-middleware');
 
 const server = express();
 
-
+server.use(cors());
 server.use(express.json());
 
 server.use('/auth', authRouter);

@@ -28,8 +28,3 @@ router.post('/', valueWare.checkIfValueExists, async (req, res) => {
 });
 
 module.exports = router; 
-
-function checkIfValueExists(req, res, next) {
-
-
-}

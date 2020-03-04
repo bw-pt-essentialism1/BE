@@ -23,7 +23,7 @@ router.put('/', async (req, res, next) => {
     }catch(err){
         res.status(500).json({message: 'server error', err: err.message, success: false});
     }
-})
+});
 
 router.delete('/', async(req, res) => {
 
