@@ -25,12 +25,11 @@ module.exports = {
       user:     'b16b5e6c019995',
       password: '88dca0bb'
     },
-    pool: {
-      min: 2,
-      max: 10
-    },
     migrations: {
-      tableName: 'knex_migrations'
+      directory: './data/migrations'
+    },
+    seeds: {
+      directory: "./data/seeds"
     }
   }
 
