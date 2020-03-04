@@ -18,7 +18,7 @@ module.exports = {
     }
   },
   production: {
-    client: 'mysql',
+    client: 'mysql2',
     connection: {
       database: 'my_db',
       user:     'username',
