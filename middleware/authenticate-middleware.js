@@ -1,7 +1,7 @@
 const JWT = require('jsonwebtoken');
 const auth = require('../routes/auth/auth-model');
 
-const secret = "lion-Crab-human"
+const secret = process.env.SECRET;
 
 function validateUser (req, res , next) {
     const token = req.headers.authorization;
