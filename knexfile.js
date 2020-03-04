@@ -20,9 +20,10 @@ module.exports = {
   production: {
     client: 'mysql2',
     connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
+      host: "us-cdbr-iron-east-04.cleardb.net",
+      database: 'heroku_8f29e2d6d8b5b58',
+      user:     'b16b5e6c019995',
+      password: '88dca0bb'
     },
     pool: {
       min: 2,
