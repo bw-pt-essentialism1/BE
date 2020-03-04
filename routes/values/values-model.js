@@ -21,5 +21,5 @@ function findBy(value){
 
 function add(value){
 
-    return db('values').insert(value)
+    return db('values').insert({value})
 }

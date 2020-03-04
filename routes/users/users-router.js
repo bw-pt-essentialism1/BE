@@ -87,7 +87,7 @@ router.post('/favoritevalues', async (req, res) => {
     }catch(err){
         res.status(500).json({message: 'server error', err: err.message, success: false});
     }
-})
+});
 
 router.delete('/uservalues', async (req, res) => {
 
@@ -99,7 +99,7 @@ router.delete('/uservalues', async (req, res) => {
     }catch(err){
         res.status(500).json({message: 'server error', err: err.message, success: false});
     }
-})
+});
 
 router.delete("/favoriteValues", async (req ,res) => {
 
@@ -140,7 +140,7 @@ router.post('/projects', async (req, res) => {
     }catch(err){
         res.status(500).json({message: 'server error', err: err.message, success: false});
     }
-})
+});
 
 router.get('/projects', async (req ,res) => {
 
@@ -177,7 +177,7 @@ router.get('/projects', async (req ,res) => {
     }catch(err){
         res.status(500).json({message: 'server error', err: err.message, success: false});
     }
-})
+});
 
 router.delete('/projects', async (req , res) => {
 
@@ -216,7 +216,7 @@ router.delete('/projects/values', async (req, res) => {
         }catch(err){
             res.status(500).json({message: 'server error', err: err.message, success: false});
         }
-})
+});
 
 
 module.exports = router; 

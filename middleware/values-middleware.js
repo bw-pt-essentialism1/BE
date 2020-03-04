@@ -5,8 +5,9 @@ async function checkIfValueExists (req , res , next){
     const { value } = req.body;
 
     try{
-        values = valuesDB.findBy(value);
-        if(values.length !== 0 ) {
+        values = await valuesDB.findBy(value);
+        console.log(values);
+        if(values !== undefined ) {
             res.status(403).json({message: "That value already exists", success: false});
         }
         else next();

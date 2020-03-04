@@ -1,7 +1,7 @@
 const JWT = require('jsonwebtoken');
 const auth = require('../routes/auth/auth-model');
 
-const secret = process.env.SECRET;
+const secret = process.env.SECRET || "iamacrab";
 
 function validateUser (req, res , next) {
     const token = req.headers.authorization;
@@ -32,7 +32,7 @@ function generateToken(user) {
     return JWT.sign(payload, secret, options);
 }
 
-async function checkIfUserExists(req, res , next){
+async function checkIfUserExists(req, res, next){
 
     try {
         const {username, email, phone} = req.body;
