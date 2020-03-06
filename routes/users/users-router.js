@@ -129,7 +129,7 @@ router.post('/projects', async (req, res) => {
            for(let i = 0; i < values.length; i++){
                
                const addedValue = await usersModel.addProjectValue({value_id: values[i].id, project_id: createdProject[0]});
-               addedValueArray.push(addedValue);
+               addedValueArray.push(values[i].name);
            }
        }
 

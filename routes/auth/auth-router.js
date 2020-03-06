@@ -32,7 +32,7 @@ router.post('/login', async (req, res) => {
             const token = authWare.generateToken(user);
 
             res.status(200)
-                .json({message: `Welcome ${user.username}`, token});
+                .json({message: `Welcome ${user.username}`, id: user.id, token });
         }
         else{
             res.status(400)

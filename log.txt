@@ -1,0 +1,102 @@
+2020-03-04T22:59:54.436335+00:00 app[web.1]: at parse (/app/node_modules/body-parser/lib/types/json.js:89:19)
+2020-03-04T22:59:54.436335+00:00 app[web.1]: at /app/node_modules/body-parser/lib/read.js:121:18
+2020-03-04T22:59:54.436336+00:00 app[web.1]: at invokeCallback (/app/node_modules/raw-body/index.js:224:16)
+2020-03-04T22:59:54.436336+00:00 app[web.1]: at done (/app/node_modules/raw-body/index.js:213:7)
+2020-03-04T22:59:54.436337+00:00 app[web.1]: at IncomingMessage.onEnd (/app/node_modules/raw-body/index.js:273:7)
+2020-03-04T22:59:54.436337+00:00 app[web.1]: at IncomingMessage.emit (events.js:323:22)
+2020-03-04T22:59:54.436338+00:00 app[web.1]: at endReadableNT (_stream_readable.js:1204:12)
+2020-03-04T22:59:54.436338+00:00 app[web.1]: at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-03-04T23:00:53.482344+00:00 heroku[router]: at=info method=PUT path="/users" host=essentialism-backend1.herokuapp.com request_id=9cd98c40-6f7f-4c06-81f0-47549b17df56 fwd="100.4.210.209" dyno=web.1 connect=1ms service=134ms status=200 bytes=256 protocol=https
+2020-03-04T23:00:53.352406+00:00 app[web.1]: Connection Error: Error: Connection lost: The server closed the connection.
+2020-03-04T23:00:53.473464+00:00 app[web.1]: .returning() is not supported by mysql and will not have any effect.
+2020-03-04T23:01:01.865271+00:00 heroku[router]: at=info method=GET path="/users" host=essentialism-backend1.herokuapp.com request_id=1015e07d-16d8-48f0-b500-bfbf8b7616fd fwd="100.4.210.209" dyno=web.1 connect=1ms service=13ms status=200 bytes=1341 protocol=https
+2020-03-04T23:06:45.821592+00:00 app[web.1]: Connection Error: Error: Connection lost: The server closed the connection.
+2020-03-04T23:06:46.064377+00:00 heroku[router]: at=info method=GET path="/users/uservalues" host=essentialism-backend1.herokuapp.com request_id=85d45e15-2f5b-4a9e-bc86-56633de84d06 fwd="100.4.210.209" dyno=web.1 connect=0ms service=245ms status=500 bytes=534 protocol=https
+2020-03-04T23:07:52.675243+00:00 app[web.1]: Connection Error: Error: Connection lost: The server closed the connection.
+2020-03-04T23:07:52.803569+00:00 heroku[router]: at=info method=GET path="/users/uservalues" host=essentialism-backend1.herokuapp.com request_id=1ced8793-1b0d-4c85-b00e-067570258c9f fwd="100.4.210.209" dyno=web.1 connect=3ms service=132ms status=200 bytes=298 protocol=https
+2020-03-04T23:11:05.743814+00:00 heroku[router]: at=info method=GET path="/users/uservalues" host=essentialism-backend1.herokuapp.com request_id=0b4563bf-89f9-40b5-aa74-0f1e00ab32cc fwd="100.4.210.209" dyno=web.1 connect=1ms service=2ms status=401 bytes=299 protocol=https
+2020-03-04T23:11:23.419641+00:00 heroku[router]: at=info method=GET path="/users/uservalues" host=essentialism-backend1.herokuapp.com request_id=89997f6c-9973-4d54-8fd6-cbbde51d6477 fwd="100.4.210.209" dyno=web.1 connect=1ms service=2ms status=401 bytes=299 protocol=https
+2020-03-04T23:11:28.039227+00:00 heroku[router]: at=info method=GET path="/users/uservalues" host=essentialism-backend1.herokuapp.com request_id=5ee61005-2524-49a7-82e4-cc453af49234 fwd="100.4.210.209" dyno=web.1 connect=1ms service=2ms status=401 bytes=299 protocol=https
+2020-03-04T23:11:48.400424+00:00 heroku[router]: at=info method=GET path="/users/uservalues" host=essentialism-backend1.herokuapp.com request_id=4052b50b-7178-4ef3-9c8f-f95048a5ecb5 fwd="100.4.210.209" dyno=web.1 connect=1ms service=3ms status=401 bytes=299 protocol=https
+2020-03-04T23:13:50.455481+00:00 heroku[router]: at=info method=POST path="/users/uservalues" host=essentialism-backend1.herokuapp.com request_id=955dc297-3b6f-4aaa-8e6c-294d56192bb2 fwd="100.4.210.209" dyno=web.1 connect=1ms service=3ms status=400 bytes=416 protocol=https
+2020-03-04T23:13:50.454651+00:00 app[web.1]: SyntaxError: Unexpected token } in JSON at position 34
+2020-03-04T23:13:50.454676+00:00 app[web.1]: at JSON.parse (<anonymous>)
+2020-03-04T23:13:50.454677+00:00 app[web.1]: at parse (/app/node_modules/body-parser/lib/types/json.js:89:19)
+2020-03-04T23:13:50.454677+00:00 app[web.1]: at /app/node_modules/body-parser/lib/read.js:121:18
+2020-03-04T23:13:50.454678+00:00 app[web.1]: at invokeCallback (/app/node_modules/raw-body/index.js:224:16)
+2020-03-04T23:13:50.454678+00:00 app[web.1]: at done (/app/node_modules/raw-body/index.js:213:7)
+2020-03-04T23:13:50.454679+00:00 app[web.1]: at IncomingMessage.onEnd (/app/node_modules/raw-body/index.js:273:7)
+2020-03-04T23:13:50.454680+00:00 app[web.1]: at IncomingMessage.emit (events.js:323:22)
+2020-03-04T23:13:50.454680+00:00 app[web.1]: at endReadableNT (_stream_readable.js:1204:12)
+2020-03-04T23:13:50.454680+00:00 app[web.1]: at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-03-04T23:14:44.217017+00:00 app[web.1]: Connection Error: Error: Connection lost: The server closed the connection.
+2020-03-04T23:14:44.394901+00:00 app[web.1]: .returning() is not supported by mysql and will not have any effect.
+2020-03-04T23:14:44.404218+00:00 heroku[router]: at=info method=POST path="/users/uservalues" host=essentialism-backend1.herokuapp.com request_id=efa68856-a282-4429-bfad-5ff8c156bc99 fwd="100.4.210.209" dyno=web.1 connect=1ms service=189ms status=500 bytes=610 protocol=https
+2020-03-04T23:16:09.303840+00:00 app[web.1]: Connection Error: Error: Connection lost: The server closed the connection.
+2020-03-04T23:16:09.420835+00:00 heroku[router]: at=info method=GET path="/users/" host=essentialism-backend1.herokuapp.com request_id=81e7a24b-87d0-432c-aa5b-79597c21f25c fwd="100.4.210.209" dyno=web.1 connect=1ms service=119ms status=200 bytes=1341 protocol=https
+2020-03-04T23:16:22.828513+00:00 heroku[router]: at=info method=POST path="/users/uservalues" host=essentialism-backend1.herokuapp.com request_id=15f283bc-83d2-4713-86de-52d254d85169 fwd="100.4.210.209" dyno=web.1 connect=1ms service=13ms status=201 bytes=303 protocol=https
+2020-03-04T23:16:22.815245+00:00 app[web.1]: .returning() is not supported by mysql and will not have any effect.
+2020-03-04T23:16:34.130506+00:00 heroku[router]: at=info method=GET path="/users/uservalues" host=essentialism-backend1.herokuapp.com request_id=9595cecb-fff5-44ca-aa30-8e2c506773e8 fwd="100.4.210.209" dyno=web.1 connect=12ms service=67ms status=200 bytes=331 protocol=https
+2020-03-04T23:50:14.692417+00:00 heroku[web.1]: Idling
+2020-03-04T23:50:14.699774+00:00 heroku[web.1]: State changed from up to down
+2020-03-04T23:50:15.850862+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-03-04T23:50:15.968634+00:00 heroku[web.1]: Process exited with status 143
+2020-03-05T02:00:20.934402+00:00 heroku[web.1]: Unidling
+2020-03-05T02:00:20.937587+00:00 heroku[web.1]: State changed from down to starting
+2020-03-05T02:00:24.199957+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-03-05T02:00:26.921690+00:00 app[web.1]: 
+2020-03-05T02:00:26.921703+00:00 app[web.1]: > BE@1.0.0 start /app
+2020-03-05T02:00:26.921704+00:00 app[web.1]: > node index.js
+2020-03-05T02:00:26.921704+00:00 app[web.1]: 
+2020-03-05T02:00:27.482074+00:00 app[web.1]: server listening on port 49014
+2020-03-05T02:00:28.112001+00:00 heroku[web.1]: State changed from starting to up
+2020-03-05T02:00:29.002035+00:00 heroku[router]: at=info method=OPTIONS path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=1a889433-7101-4089-b41e-8b251d6ea727 fwd="72.238.106.159" dyno=web.1 connect=0ms service=10ms status=204 bytes=301 protocol=https
+2020-03-05T02:00:29.752310+00:00 heroku[router]: at=info method=POST path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=94b52117-3e53-43b3-b8c4-165335f57c8e fwd="72.238.106.159" dyno=web.1 connect=0ms service=704ms status=201 bytes=285 protocol=https
+2020-03-05T02:01:18.257578+00:00 heroku[router]: at=info method=OPTIONS path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=78a83715-1feb-432a-93e6-23672096b61f fwd="72.238.106.159" dyno=web.1 connect=0ms service=3ms status=204 bytes=301 protocol=https
+2020-03-05T02:01:18.723159+00:00 heroku[router]: at=info method=POST path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=0f80f985-5db1-4493-8920-b5c674438631 fwd="72.238.106.159" dyno=web.1 connect=1ms service=407ms status=201 bytes=285 protocol=https
+2020-03-05T02:21:32.425474+00:00 heroku[router]: at=info method=OPTIONS path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=69b80689-ca04-4416-81a3-6f047ec1b125 fwd="72.238.106.159" dyno=web.1 connect=1ms service=2ms status=204 bytes=301 protocol=https
+2020-03-05T02:21:32.480388+00:00 app[web.1]: Connection Error: Error: Connection lost: The server closed the connection.
+2020-03-05T02:21:32.621697+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2020-03-05T02:21:32.621699+00:00 app[web.1]: at ServerResponse.setHeader (_http_outgoing.js:526:11)
+2020-03-05T02:21:32.621701+00:00 app[web.1]: at ServerResponse.header (/app/node_modules/express/lib/response.js:771:10)
+2020-03-05T02:21:32.621701+00:00 app[web.1]: at ServerResponse.send (/app/node_modules/express/lib/response.js:170:12)
+2020-03-05T02:21:32.621701+00:00 app[web.1]: at ServerResponse.json (/app/node_modules/express/lib/response.js:267:15)
+2020-03-05T02:21:32.621702+00:00 app[web.1]: at checkIfUserExists (/app/middleware/authenticate-middleware.js:59:25)
+2020-03-05T02:21:32.621871+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+2020-03-05T02:21:32.622022+00:00 app[web.1]: (node:23) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2020-03-05T02:21:32.604894+00:00 heroku[router]: at=info method=POST path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=5f95c92b-bcde-4237-bb79-8514186bd70b fwd="72.238.106.159" dyno=web.1 connect=0ms service=128ms status=403 bytes=320 protocol=https
+2020-03-05T02:22:09.629942+00:00 heroku[router]: at=info method=OPTIONS path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=49f9af8b-b652-432c-91e1-2098ab7094e5 fwd="72.238.106.159" dyno=web.1 connect=0ms service=1ms status=204 bytes=301 protocol=https
+2020-03-05T02:22:10.029834+00:00 heroku[router]: at=info method=POST path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=f24b0127-7592-4b5a-856f-edd6aaf78f65 fwd="72.238.106.159" dyno=web.1 connect=0ms service=353ms status=201 bytes=285 protocol=https
+2020-03-05T02:24:34.998138+00:00 heroku[router]: at=info method=OPTIONS path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=71a86b40-1640-4dd5-affe-c858818c0f4a fwd="72.238.106.159" dyno=web.1 connect=1ms service=2ms status=204 bytes=301 protocol=https
+2020-03-05T02:24:35.051015+00:00 app[web.1]: Connection Error: Error: Connection lost: The server closed the connection.
+2020-03-05T02:24:35.505627+00:00 heroku[router]: at=info method=POST path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=b3e842b4-36da-4442-9e4b-f0af246ad257 fwd="72.238.106.159" dyno=web.1 connect=1ms service=459ms status=201 bytes=286 protocol=https
+2020-03-05T02:25:51.591303+00:00 heroku[router]: at=info method=OPTIONS path="/auth/login" host=essentialism-backend1.herokuapp.com request_id=283fbc25-191e-4f92-9ed1-c943d7116f84 fwd="72.238.106.159" dyno=web.1 connect=0ms service=1ms status=204 bytes=301 protocol=https
+2020-03-05T02:25:51.735148+00:00 heroku[router]: at=info method=POST path="/auth/login" host=essentialism-backend1.herokuapp.com request_id=64e822dd-14d6-4a14-8f04-2203a8e70f79 fwd="72.238.106.159" dyno=web.1 connect=0ms service=96ms status=500 bytes=435 protocol=https
+2020-03-05T02:25:51.642045+00:00 app[web.1]: Connection Error: Error: Connection lost: The server closed the connection.
+2020-03-05T02:29:21.892082+00:00 heroku[router]: at=info method=OPTIONS path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=2b06518e-3882-4032-8b96-fd5c705691dc fwd="72.238.106.159" dyno=web.1 connect=0ms service=2ms status=204 bytes=301 protocol=https
+2020-03-05T02:29:21.982962+00:00 app[web.1]: Connection Error: Error: Connection lost: The server closed the connection.
+2020-03-05T02:29:22.422474+00:00 heroku[router]: at=info method=POST path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=a6967b8b-69f7-4309-b52f-c7cd6568c762 fwd="72.238.106.159" dyno=web.1 connect=0ms service=442ms status=201 bytes=286 protocol=https
+2020-03-05T02:29:27.935626+00:00 heroku[router]: at=info method=OPTIONS path="/auth/login" host=essentialism-backend1.herokuapp.com request_id=a4dd070d-7a75-4a7e-9c42-72d4a53cf90e fwd="72.238.106.159" dyno=web.1 connect=0ms service=1ms status=204 bytes=301 protocol=https
+2020-03-05T02:29:27.985015+00:00 heroku[router]: at=info method=POST path="/auth/login" host=essentialism-backend1.herokuapp.com request_id=0e0f5f12-252e-47ac-b762-fa950176f94a fwd="72.238.106.159" dyno=web.1 connect=0ms service=3ms status=500 bytes=435 protocol=https
+2020-03-05T02:30:34.697878+00:00 heroku[router]: at=info method=OPTIONS path="/auth/login" host=essentialism-backend1.herokuapp.com request_id=5c0db4de-7135-4cc6-b2e3-7f21975cd211 fwd="72.238.106.159" dyno=web.1 connect=0ms service=2ms status=204 bytes=301 protocol=https
+2020-03-05T02:30:34.757230+00:00 app[web.1]: Connection Error: Error: Connection lost: The server closed the connection.
+2020-03-05T02:30:35.204247+00:00 heroku[router]: at=info method=POST path="/auth/login" host=essentialism-backend1.herokuapp.com request_id=b8e40606-cec0-4b00-b930-f2688aed89f2 fwd="72.238.106.159" dyno=web.1 connect=0ms service=451ms status=200 bytes=439 protocol=https
+2020-03-05T02:31:45.048425+00:00 heroku[router]: at=info method=OPTIONS path="/auth/login" host=essentialism-backend1.herokuapp.com request_id=04456337-473c-4084-98a8-8432f005d074 fwd="72.238.106.159" dyno=web.1 connect=0ms service=2ms status=204 bytes=301 protocol=https
+2020-03-05T02:31:45.104191+00:00 app[web.1]: Connection Error: Error: Connection lost: The server closed the connection.
+2020-03-05T02:31:45.530757+00:00 heroku[router]: at=info method=POST path="/auth/login" host=essentialism-backend1.herokuapp.com request_id=e8bd6002-8fe5-4096-98c2-cb2d57486353 fwd="72.238.106.159" dyno=web.1 connect=0ms service=428ms status=200 bytes=439 protocol=https
+2020-03-05T02:32:17.374568+00:00 heroku[router]: at=info method=OPTIONS path="/auth/login" host=essentialism-backend1.herokuapp.com request_id=e4f50be8-02b6-4184-bfa6-1edec160288c fwd="72.238.106.159" dyno=web.1 connect=1ms service=1ms status=204 bytes=301 protocol=https
+2020-03-05T02:32:17.818808+00:00 heroku[router]: at=info method=POST path="/auth/login" host=essentialism-backend1.herokuapp.com request_id=ec7d6ed7-c9e1-40de-9212-e6c05cf9dfe2 fwd="72.238.106.159" dyno=web.1 connect=1ms service=380ms status=200 bytes=439 protocol=https
+2020-03-05T02:34:05.982260+00:00 heroku[router]: at=info method=OPTIONS path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=751eb560-5a5d-44a4-b2d5-6d62e3ac9a1b fwd="72.238.106.159" dyno=web.1 connect=1ms service=6ms status=204 bytes=301 protocol=https
+2020-03-05T02:34:06.153085+00:00 app[web.1]: Connection Error: Error: Connection lost: The server closed the connection.
+2020-03-05T02:34:06.430669+00:00 heroku[router]: at=info method=POST path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=dd695141-e716-4781-98ee-1bbb4617984c fwd="72.238.106.159" dyno=web.1 connect=1ms service=302ms status=403 bytes=323 protocol=https
+2020-03-05T02:34:06.788557+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2020-03-05T02:34:06.788598+00:00 app[web.1]: at ServerResponse.setHeader (_http_outgoing.js:526:11)
+2020-03-05T02:34:06.788599+00:00 app[web.1]: at ServerResponse.header (/app/node_modules/express/lib/response.js:771:10)
+2020-03-05T02:34:06.788599+00:00 app[web.1]: at ServerResponse.send (/app/node_modules/express/lib/response.js:170:12)
+2020-03-05T02:34:06.788600+00:00 app[web.1]: at ServerResponse.json (/app/node_modules/express/lib/response.js:267:15)
+2020-03-05T02:34:06.788600+00:00 app[web.1]: at /app/routes/auth/auth-router.js:19:25
+2020-03-05T02:34:06.788690+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+2020-03-05T02:34:22.268968+00:00 heroku[router]: at=info method=OPTIONS path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=0c9375f6-3a2f-4ec9-b802-86aa2d6e06b5 fwd="72.238.106.159" dyno=web.1 connect=1ms service=2ms status=204 bytes=301 protocol=https
+2020-03-05T02:34:22.662099+00:00 heroku[router]: at=info method=POST path="/auth/register" host=essentialism-backend1.herokuapp.com request_id=045d4dfb-137f-4683-abe3-82bc3aaac8a6 fwd="72.238.106.159" dyno=web.1 connect=1ms service=340ms status=201 bytes=286 protocol=https
+heroku logs --app essentialism-backend1
+heroku logs --app essentialism-backend1
