@@ -39,9 +39,9 @@ router.delete('/', async(req, res) => {
 
 });
 
-router.get('/uservalues', async (req, res) => {
+router.get('/uservalues/:id', async (req, res) => {
 
-    const { id } = req.body;
+    const { id } = req.params;
 
     try{
         const values = await usersModel.getValues(id);
